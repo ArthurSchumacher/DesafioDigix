@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Desafio.Dominio\Desafio.Dominio.csproj" />
+    <ProjectReference Include="..\Desafio.FakeDB\Desafio.FakeDB.csproj" />
+    <ProjectReference Include="..\Desafio.Repositorio\Desafio.Repositorio.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
