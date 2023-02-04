@@ -28,7 +28,7 @@ public class FamilyOp
 
         Console.Clear();
         Console.WriteLine("10 Families, added successfully!");
-        Console.ReadKey();
+        //Console.ReadKey();
     }
 
     public void ListFamilies()

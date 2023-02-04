@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Repositorio", "Desa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Servico", "Desafio.Servico\Desafio.Servico.csproj", "{6367D453-4ABD-40E3-B15F-6F93CF087C6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyOpTests.nUnitTests", "FamilyOpTests.nUnitTests\FamilyOpTests.nUnitTests.csproj", "{0A83618E-F33E-4154-8CFF-9A1DA90019C1}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,5 +88,17 @@ Global
 		{6367D453-4ABD-40E3-B15F-6F93CF087C6F}.Release|x64.Build.0 = Release|Any CPU
 		{6367D453-4ABD-40E3-B15F-6F93CF087C6F}.Release|x86.ActiveCfg = Release|Any CPU
 		{6367D453-4ABD-40E3-B15F-6F93CF087C6F}.Release|x86.Build.0 = Release|Any CPU
+		{0A83618E-F33E-4154-8CFF-9A1DA90019C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A83618E-F33E-4154-8CFF-9A1DA90019C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A83618E-F33E-4154-8CFF-9A1DA90019C1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0A83618E-F33E-4154-8CFF-9A1DA90019C1}.Debug|x64.Build.0 = Debug|Any CPU
+		{0A83618E-F33E-4154-8CFF-9A1DA90019C1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0A83618E-F33E-4154-8CFF-9A1DA90019C1}.Debug|x86.Build.0 = Debug|Any CPU
+		{0A83618E-F33E-4154-8CFF-9A1DA90019C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A83618E-F33E-4154-8CFF-9A1DA90019C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A83618E-F33E-4154-8CFF-9A1DA90019C1}.Release|x64.ActiveCfg = Release|Any CPU
+		{0A83618E-F33E-4154-8CFF-9A1DA90019C1}.Release|x64.Build.0 = Release|Any CPU
+		{0A83618E-F33E-4154-8CFF-9A1DA90019C1}.Release|x86.ActiveCfg = Release|Any CPU
+		{0A83618E-F33E-4154-8CFF-9A1DA90019C1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

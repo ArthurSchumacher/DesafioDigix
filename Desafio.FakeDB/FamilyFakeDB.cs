@@ -11,7 +11,7 @@ namespace Desafio.FakeDB
         private static List<Family> Fill()
         {
             List<Family> familyList = new List<Family>();
-            Family firstFamily = new Family(3500);
+            Family firstFamily = new Family(3000);
             Person dependentPerson = new Person(19);
             firstFamily.AddMember(dependentPerson);
             firstFamily.CalculateScore();
