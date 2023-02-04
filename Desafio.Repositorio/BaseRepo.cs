@@ -1,15 +1,12 @@
-﻿namespace Desafio.Repositorio;
+﻿namespace Desafio.Repository;
 
-using Desafio.Dominio;
-using Desafio.FakeDB;
-
-public abstract class BaseRepo<TClasse> where TClasse : class
+public abstract class BaseRepo<TClass> where TClass : class
 {
-    public abstract TClasse Criar(TClasse obj);
+    public abstract TClass Create(TClass obj);
 
-    public abstract TClasse Deletar(TClasse obj);
+    public abstract TClass Delete(TClass obj);
 
-    public abstract TClasse LerUm(int key);
+    public abstract TClass ReadOne(int key);
 
-    public abstract List<TClasse> LerTodos();
+    public abstract List<TClass> ReadAll();
 }

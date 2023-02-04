@@ -1,5 +1,5 @@
 ﻿using System;
-using Desafio.Dominio;
+using Desafio.Domain;
 
 namespace Desafio
 {
@@ -9,7 +9,7 @@ namespace Desafio
         {
             try
             {
-                Desafio.Utils.PrimeiraTela();
+                Desafio.Utils.FirstScreen();
             }
             catch (System.Exception e)
             {

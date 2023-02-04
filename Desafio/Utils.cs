@@ -3,37 +3,37 @@ namespace Desafio;
 
 public static class Utils
 {
-    private static FamiliaOp opFamilia = new FamiliaOp();
+    private static FamilyOp opFamily = new FamilyOp();
 
-    public static void PrimeiraTela()
+    public static void FirstScreen()
     {
         Console.Clear();
-        Console.WriteLine("Seja bem vindo(a), escolha uma opção: ");
-        Console.WriteLine("1) Adicionar 10 familias");
-        Console.WriteLine("2) Listar familias");
-        Console.WriteLine("3) Sair");
-        Console.Write("\r\nSelecione uma opção: ");
+        Console.WriteLine("Welcome, choose an option: ");
+        Console.WriteLine("1) Add 10 families");
+        Console.WriteLine("2) List families");
+        Console.WriteLine("3) Exit");
+        Console.Write("\r\nSelect an option: ");
 
         switch (int.Parse(Console.ReadLine()))
         {
             case 1:
-                opFamilia.Adicionar10();
-                PrimeiraTela();
+                opFamily.Add10();
+                FirstScreen();
                 break;
             
             case 2:
-                opFamilia.ListarFamilias();
-                PrimeiraTela();
+                opFamily.ListFamilies();
+                FirstScreen();
                 break;
             
             case 3:
                 Console.Clear();
-                Console.WriteLine("Encerrando programa.");
-                Console.WriteLine("Pressione qualquer tecla para continuar.");
+                Console.WriteLine("Ending program.");
+                Console.WriteLine("Press any key to continue.");
                 Console.ReadKey();
                 break;
             default:
-                PrimeiraTela();
+                FirstScreen();
                 break;
 
         }
