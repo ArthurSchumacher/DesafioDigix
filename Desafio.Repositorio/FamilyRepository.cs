@@ -4,7 +4,7 @@ using Desafio.FakeDB;
 
 public class FamilyRepository : BaseRepo<Family>
 {
-    public override Family Create(Family obj)
+    public Family Create(Family obj)
     {
         int key = FamilyFakeDB.FamilyList.Last().Id + 1;
         obj.Id = key;
@@ -14,7 +14,7 @@ public class FamilyRepository : BaseRepo<Family>
         return obj;
     }
 
-    public override Family Delete(Family obj)
+    public Family Delete(Family obj)
     {
         Family original = ReadOne(obj.Id);
 
@@ -29,12 +29,12 @@ public class FamilyRepository : BaseRepo<Family>
         }
     }
 
-    public override Family ReadOne(int key)
+    public Family ReadOne(int key)
     {
         return FamilyFakeDB.FamilyList.SingleOrDefault(family => family.Id == key);
     }
 
-    public override List<Family> ReadAll()
+    public List<Family> ReadAll()
     {
         return FamilyFakeDB.FamilyList;
     }
