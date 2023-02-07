@@ -2,7 +2,7 @@ namespace Desafio.Repository;
 using Desafio.Domain;
 using Desafio.FakeDB;
 
-public class FamilyRepository : BaseRepo<Family>
+public class FamilyRepository : IBaseRepo<Family>
 {
     public Family Create(Family obj)
     {
