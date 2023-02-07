@@ -1,6 +1,6 @@
 ﻿namespace Desafio.Repository;
 
-public interface IBaseRepo<TClass> where TClass : class
+public abstract class BaseRepo<TClass> where TClass : class
 {
     public abstract TClass Create(TClass obj);
 
