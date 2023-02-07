@@ -27,7 +27,7 @@ namespace Desafio.Consumo.Tests
                 Assert.That(family.TotalIncome, Is.InRange(0, 3000));
 
                 // Check if each person's age is within the expected range
-                Assert.That(family.Members.All(m => m.Age >= 0 && m.Age <= 37), Is.True);
+                Assert.That(family.FamilyMembers.All(m => m.Age >= 0 && m.Age <= 37), Is.True);
             }
         }
     }
